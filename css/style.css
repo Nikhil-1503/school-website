@@ -252,7 +252,7 @@ border:0px;
 } */
 
 
-.caption-data {position: absolute; top: 50%; left: 34%; z-index: 20; text-align: left; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); transform: translate(-50%,-50%);text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);}
+.caption-data {position: absolute; top: 50%; left: 40%; z-index: 20; text-align: left; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); transform: translate(-50%,-50%);text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);}
 .caption-data h1 {text-transform: uppercase;}
 .caption-data h1 span {font-size: inherit; line-height: inherit; font-weight: inherit;}
 .caption-data h3{line-height:34px;font-size: 30px;}
@@ -627,7 +627,12 @@ padding: 10px 0;
 @media (max-width: 768px) { 
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
+    .caption-data h1{
+		font-size: 25px;
+	}
+	.caption-data h3{
+		font-size: 20px;
+	}
     #quote-carousel .carousel-indicators {
         bottom: -20px !important;  
     }
