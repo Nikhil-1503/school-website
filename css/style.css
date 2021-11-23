@@ -6,8 +6,7 @@ body {
 .brand {
 	font-family: 'Raleway', sans-serif;
 }
-html,
-body {
+html,body {
 	height: 100%;
 }
 body {
@@ -17,12 +16,7 @@ body {
 	background-color: #ffffff;
 	position: relative;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
 	color: #333333;
 }
 h1 {
@@ -49,10 +43,7 @@ h5 {
 h6 {
 	font-weight: 700;
 }
-h1 span,
-h2 span,
-h3 span,
-h4 span {
+h1 span, h2 span, h3 span, h4 span {
 	color: #0A94DB;
 }
 .colored {
@@ -64,8 +55,7 @@ a {
 a:hover {
 	color: #339BEB;
 }
-a:focus,
-a:active {
+a:focus, a:active {
 	outline: none;
 }
 .large {
@@ -173,14 +163,14 @@ color: #323232;
 	background-color: #55acee;
 }
 .btn-primary {
-color: #fff;
-background-color: #0A94DB;
-border:0px;
+	color: #fff;
+	background-color: #0A94DB;
+	border:0px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-color: #fff;
-background-color: #0A94DB;
-border:0px;
+	color: #fff;
+	background-color: #0A94DB;
+	border:0px;
 }
 .transprant-bg {
 	color: #ffffff;
@@ -252,27 +242,45 @@ border:0px;
 } */
 
 
-.caption-data {position: absolute; top: 50%; left: 40%; z-index: 20; text-align: left; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); transform: translate(-50%,-50%);text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);}
-.caption-data h1 {text-transform: uppercase;}
-.caption-data h1 span {font-size: inherit; line-height: inherit; font-weight: inherit;}
-.caption-data h3{line-height:34px;font-size: 30px;}
+.caption-data {
+	position: absolute; 
+	top: 50%; left: 40%; 
+	z-index: 20; 
+	text-align: left; 
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+}
+.caption-data h1 {
+	text-transform: uppercase;
+}
+.caption-data h1 span {
+	font-size: inherit; 
+	line-height: inherit; 
+	font-weight: inherit;
+}
+.caption-data h3{
+	line-height:34px;
+	font-size: 30px;
+}
 button.cta-button.btn-light, button.cta-button.btn-dark, .contact-form button.cta-button, button.cta-button.btn-default {
-background: transparent;
+	background: transparent;
 }
 button.cta-button {
-font-size: 16px;
-line-height: 16px;
-border: 1px solid #fff;
-padding: 20px 42px;
-border-radius: 4px;
-font-family: 'Raleway';
-font-weight: 600;
-transition: background 0.3s, border-color 0.3s;
-margin-top:20px;
+	font-size: 16px;
+	line-height: 16px;
+	border: 1px solid #fff;
+	padding: 20px 42px;
+	border-radius: 4px;
+	font-family: 'Raleway';
+	font-weight: 600;
+	transition: background 0.3s, border-color 0.3s;
+	margin-top:20px;
 }
 button.cta-button:hover{
-background:#fff;
-color:#000;
+	background:#fff;
+	color:#000;
 }
 /* Misc
 ----------------------------------------------------------------------------- */
@@ -310,7 +318,7 @@ color:#000;
 	padding-bottom: 0;
 }
 .secPadding{
-padding: 70px 0;
+	padding: 70px 0;
 }
 /* Sections
 ----------------------------------------------------------------------------- */
@@ -326,27 +334,30 @@ padding: 70px 0;
 	font-size: 45px;
 }
 .footer h1{
-color:#fff;
+	color:#fff;
 }
 .footer.section {
-background: #020202;
-color: #949494;
+	background: #020202;
+	color: #949494;
 }
 .subfooter p {
 	margin-bottom: 0;
 	color: #fff;
 }
 .hero-caption{
-text-align:center;
-padding:40px 0;
+	text-align:center;
+	padding:40px 0;
 }
 .hero-caption h2{
-text-align:center;
+	text-align:center;
 }
-/* Template Components
------------------------------------------------------------------------------ */
-/* Buttons
----------------------------------- */
+
+.widget-content{
+	margin-left: 25px;
+	margin-top: 10%;
+}
+
+/* Buttons */
 
 .btn {
 	padding: 8px 15px;
@@ -373,7 +384,7 @@ text-align:center;
 	border: 0;
 }
 .media-left, .media > .pull-left {
-  padding-right: 26px;
+  	padding-right: 26px;
 }
 /* Collapse
 ---------------------------------- */
@@ -474,7 +485,7 @@ textarea {
 	resize: vertical;
 }
 .price-table .panel-heading{
-padding: 10px 0;
+	padding: 10px 0;
 }
 /* Modals
 ---------------------------------- */
@@ -526,7 +537,9 @@ padding: 10px 0;
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	padding: 10px 20px;
-	color: #949494;  font-weight: 700;  font-size: 16px;
+	color: #949494;  
+	font-weight: 700;  
+	font-size: 16px;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
@@ -540,50 +553,50 @@ padding: 10px 0;
 /* carousel */
 #quote-carousel 
 {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
+ 	padding: 0 10px 30px 10px;
+ 	margin-top: 30px;
 }
 
 /* Control buttons  */
 #quote-carousel .carousel-control
 {
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
+	background: none;
+	color: #222;
+	font-size: 2.3em;
+	text-shadow: none;
+	margin-top: 30px;
 }
 /* Previous button  */
 #quote-carousel .carousel-control.left 
 {
-  left: -12px;
+  	left: -12px;
 }
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
-  right: -12px !important;
+  	right: -12px !important;
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
 {
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
 }
 /* Changes the color of the indicators */
 #quote-carousel .carousel-indicators li 
 {
-  background: #c0c0c0;
+  	background: #c0c0c0;
 }
 #quote-carousel .carousel-indicators .active 
 {
-  background: #333333;
+  	background: #333333;
 }
 #quote-carousel img
 {
-  width: 250px;
-  height: 100px
+	width: 250px;
+	height: 100px
 }
 /* End carousel */
 
@@ -603,9 +616,9 @@ padding: 10px 0;
     margin-right: 10px;
 }
 .panel-danger > .panel-heading {
-  color: #ADADAD;
-  background-color: #C7C7C7;
-  border-color: #C0C0C0;
+	color: #ADADAD;
+	background-color: #C7C7C7;
+	border-color: #C0C0C0;
 }
 
 
@@ -749,13 +762,13 @@ padding: 10px 0;
 	width: 60px;
 }
 .block-list p{
-font-size: 14px;
+	font-size: 14px;
 }
 .block-list .fa {
-padding: 20px;
-width: 65px;
-height: 65px;
-border-radius: 50%;
+	padding: 20px;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
 }
 
 
