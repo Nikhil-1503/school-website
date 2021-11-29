@@ -328,6 +328,10 @@ button.cta-button:hover{
 .subjects{
 	padding: 10px;
 }
+.faculty{
+	margin-left: 20%;
+	margin-top: -20px;
+}
 .teacher-names{
 	margin-top: 6%;
 }
@@ -335,6 +339,9 @@ button.cta-button:hover{
 	.teacher-names{
 		margin-top: 6%;
 		text-align: center;
+	}
+	.faculty{
+		margin-left: unset;
 	}
 }
 .banner-caption h1,
