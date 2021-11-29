@@ -240,7 +240,10 @@ color: #323232;
 }
 .bg-image-2 {
 } */
-
+#school-intro{
+	text-align: justify;
+	font-size: 110%;
+}
 
 .caption-data {
 	position: absolute; 
@@ -322,6 +325,18 @@ button.cta-button:hover{
 }
 /* Sections
 ----------------------------------------------------------------------------- */
+.subjects{
+	padding: 10px;
+}
+.teacher-names{
+	margin-top: 6%;
+}
+@media (max-width: 768px) { 
+	.teacher-names{
+		margin-top: 6%;
+		text-align: center;
+	}
+}
 .banner-caption h1,
 .banner-caption h2,
 .banner-caption h3,
@@ -467,26 +482,7 @@ button.cta-button:hover{
 	font-weight: 300;
 }
 
-/* Forms
----------------------------------- */
-.form-control {
-	height: 45px;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-}
-.form-control-feedback {
-	color: #cccccc;
-}
-.has-feedback label.sr-only ~ .form-control-feedback {
-	top: 15px;
-}
-textarea {
-	resize: vertical;
-}
-.price-table .panel-heading{
-	padding: 10px 0;
-}
+
 /* Modals
 ---------------------------------- */
 .modal-content {
